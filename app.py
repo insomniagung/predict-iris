@@ -22,10 +22,10 @@ def main():
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
     st.write('\n')
-    sepal_length = st.number_input("Sepal Length", "0")
-    sepal_width = st.number_input("Sepal Width", "0")
-    petal_length = st.number_input("Petal Length", "0")
-    petal_width = st.number_input("Petal Width", "0")
+    sepal_length = st.number_input("Sepal Length", 0)
+    sepal_width = st.number_input("Sepal Width", 0)
+    petal_length = st.number_input("Petal Length", 0)
+    petal_width = st.number_input("Petal Width", 0)
     result =""
     
     if st.button("PREDIKSI"):

@@ -30,7 +30,7 @@ def main():
     
     if st.button("PREDIKSI"):
         result = prediction(sepal_length, sepal_width, petal_length, petal_width)
-    st.success('Hasil Prediksi - {}'.format(result))
+    st.success('Hasil Prediksi {}'.format(result))
     
 if __name__=='__main__':
     main()

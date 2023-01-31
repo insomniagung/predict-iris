@@ -22,6 +22,17 @@ def main():
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
     st.write('\n')
+    
+    html_temp = """
+    <div style ="background-color:yellow;padding:13px">
+    <h1 style ="color:black;text-align:center;">Streamlit Iris Flower Classifier ML App </h1>
+    </div>
+    """
+      
+    # this line allows us to display the front end aspects we have 
+    # defined in the above code
+    st.markdown(html_temp, unsafe_allow_html = True)
+    
     sepal_length = st.text_input("Sepal Length", "0")
     sepal_width = st.text_input("Sepal Width", "0")
     petal_length = st.text_input("Petal Length", "0")

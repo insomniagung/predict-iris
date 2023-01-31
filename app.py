@@ -17,7 +17,7 @@ def prediction(sepal_length, sepal_width, petal_length, petal_width):
 
 def main():
     st.title("Aplikasi Prediksi Bunga Iris Algoritma Naive Bayes")
-    st.markdown('Oleh : Agung Gunawan (2019230012) | Universitas Darma Persada | UAS Datamining')
+    st.markdown('Oleh : La Rani Mauludyah Kurnia (2018230184) | Universitas Darma Persada | UAS Datamining')
     st.write('\n')
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
